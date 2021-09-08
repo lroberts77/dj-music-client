@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, render } from "enzyme";
-import Navbar from './Navbar/Navbar';
+import Navbar from './Navbar';
 // import { render, screen } from '@testing-library/react';
 
 describe('Navbar', () => {
