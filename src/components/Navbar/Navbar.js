@@ -7,9 +7,15 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className="logo">
-            {/* <img className="img" src={fractal} alt="logo" /> */}
-            <h2 className="owner">FRACTAL</h2>
+                {/* <img className="img" src={fractal} alt="logo" /> */}
+                <h2 className="owner">FRACTAL</h2>
             </div>
+
+            <label>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+            </label>
         </nav>
     )
 }
