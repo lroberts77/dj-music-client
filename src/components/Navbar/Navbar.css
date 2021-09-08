@@ -5,31 +5,26 @@
     left: 0;
     width: 100vw;
     height: 80px;
-    padding: 10px 40px;
+    padding: 5px 30px;
     box-sizing: border-box;
     transition: .5s;    
     display: flex;
     justify-content: space-between;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, 1);
     transition: all .5s ease-in-out; 
 }
 .logo {
     display: flex;
-    flex-direction: column;
-    height: 100%;
     align-items: center;
     text-decoration: none;
 }
 
-.img {
-    height: 80%;
-}
-
 .owner {
-    height: 20%;
-    margin-top: 0.5vh;  
+    font-family: Orbitron;
+    /* height: 70%; */
+    /* margin-top: 0.5vh;   */
     color: white;
-    font-size: 9px;
+    font-size: 14px;
     font-weight: lighter;
     transition: all .5s ease-in-out;
 }
