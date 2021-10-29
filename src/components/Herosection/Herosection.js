@@ -14,6 +14,11 @@ export default Herosection => {
                         <p className="artist-about">
                             Award winning and world renowned artist FRACTAL specialising in Drum and Bass and FLAKING
                         </p>
+                        <div className="links-container">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        </div>
                     </div>
 
                 </div>
