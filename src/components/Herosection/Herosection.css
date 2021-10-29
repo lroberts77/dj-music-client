@@ -41,11 +41,18 @@
         height: 45vh;
         padding: 110px 50px 20px 50px;
         color: white;
+        font-family: Orbitron;
     }
 
     .artist-name {
         font-size: 17px;
         margin-top: 0px;
         letter-spacing: 1px;
+    }
+
+    .artist-about {
+        letter-spacing: .7px;
+        font-size: 11px;
+        width: 90%;
     }
 /* } */
