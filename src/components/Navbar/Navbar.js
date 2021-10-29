@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import "./Navbar.css";
-import vinyl from "../../assets/images/record.png"
-import fractal from "../../assets/images/fractal.png"
+// import vinyl from "../../assets/images/record.png"
+// import fractal from "../../assets/images/fractal.png"
+import { Divide as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
     return (
@@ -11,11 +12,9 @@ const Navbar = () => {
                 <h2 className="owner">FRACTAL</h2>
             </div>
 
-            <label>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-            </label>
+            <div className="ham">
+                <Hamburger className="hamburger" color="#4FD1C5" />
+            </div>
         </nav>
     )
 }
