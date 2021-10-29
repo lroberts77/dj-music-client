@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import "./Herosection.css";
+import Footer from '../Footer/Footer';
 
 export default Herosection => {
     return (
@@ -17,7 +18,7 @@ export default Herosection => {
 
                 </div>
             </div>
-
+            <Footer />
         </div>
     )
 }
