@@ -16,15 +16,15 @@ export default Herosection => {
                         <p className="artist-about">
                             Award winning and world renowned artist FRACTAL specialising in Drum and Bass and FLAKING
                         </p>
-                        <div className="links-container">
-                        <div>
-                            <a href="" className="instagram"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+                        <div className="social-container">
+                        <div className="social-border">
+                            <a href="" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
                         </div>
-                        <div>
-                            <a href="" className="youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
+                        <div className="social-border">
+                            <a href="" className="youtube"><FontAwesomeIcon icon={faYoutube} /></a>
                         </div>
-                        <div>
-                            <a href="" className="facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                        <div className="social-border">
+                            <a href="" className="facebook"><FontAwesomeIcon icon={faFacebook} /></a>
                         </div>
                         </div>
                     </div>
