@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import "./Herosection.css";
 import Footer from '../Footer/Footer';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faYoutube, faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default Herosection => {
     return (
@@ -15,9 +17,15 @@ export default Herosection => {
                             Award winning and world renowned artist FRACTAL specialising in Drum and Bass and FLAKING
                         </p>
                         <div className="links-container">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <a href="" className="instagram"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+                        </div>
+                        <div>
+                            <a href="" className="youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
+                        </div>
+                        <div>
+                            <a href="" className="facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
+                        </div>
                         </div>
                     </div>
 
