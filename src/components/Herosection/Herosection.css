@@ -48,6 +48,7 @@
         font-size: 17px;
         margin-top: 0px;
         letter-spacing: 1px;
+        text-shadow: 6px 6px 9px rgba(rgb(57, 3, 82), 0.4);
         -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.3) 30%, #000 50%, rgba(0,0,0,.3) 70%);
         -webkit-mask-size: 200%;
         animation: shine 2.5s infinite;
@@ -78,7 +79,6 @@
 
     .svg-inline--fa {
         color: white;
-        /* height: 1.3em; */
     }
     
     .social-border {
