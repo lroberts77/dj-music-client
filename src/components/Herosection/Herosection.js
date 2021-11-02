@@ -37,7 +37,7 @@ export default Herosection => {
             </div>
             <div className="section2">
                 <div className="music-container">
-                <ReactPlayer url='https://soundcloud.com/i_am_fractal/witness-the-fitness-remix?si=673e3b8d8b1c4108a62443decac991a3' />
+                <ReactPlayer className="music-player" url='https://soundcloud.com/i_am_fractal/witness-the-fitness-remix?si=673e3b8d8b1c4108a62443decac991a3' />
                 </div>
             </div>
             <Footer />

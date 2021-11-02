@@ -93,14 +93,21 @@
     }
 
     .section2 {
-        width: 100%;
+        max-width: 100vw;
         height: 50vh;
         object-fit: fill;
     }
 
     .music-container {
-        width: 95%;
+        max-width: 95%;
         object-fit: fill;
+    }
+
+    .widget {
+    }
+
+    .music-player {
+        width: 100vw;
     }
     
 /* } */
