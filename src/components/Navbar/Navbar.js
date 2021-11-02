@@ -12,8 +12,8 @@ const Navbar = () => {
                 <h2 className="owner">FRACTAL</h2>
             </div>
 
-            <div className="ham">
-                <Hamburger className="hamburger" color="#4FD1C5" />
+            <div className="hamburger-container">
+                <Hamburger className="hamburger" color="#593392" />
             </div>
         </nav>
     )

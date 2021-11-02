@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import "./Herosection.css";
 import Footer from '../Footer/Footer';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube, faFacebook, faInstagram, faSoundcloud } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube, faFacebook, faInstagram, faSoundcloud, faSpotify } from "@fortawesome/free-brands-svg-icons";
 
 export default Herosection => {
     return (
@@ -24,11 +24,19 @@ export default Herosection => {
                             <a href="" className="youtube"><FontAwesomeIcon icon={faSoundcloud} /></a>
                         </div>
                         <div className="social-border">
+                            <a href="" className="youtube"><FontAwesomeIcon icon={faSpotify} /></a>
+                        </div>
+                        <div className="social-border">
                             <a href="" className="facebook"><FontAwesomeIcon icon={faFacebook} /></a>
                         </div>
                         </div>
                     </div>
 
+                </div>
+            </div>
+            <div className="section2">
+                <div className="music-container">
+                    
                 </div>
             </div>
             <Footer />
