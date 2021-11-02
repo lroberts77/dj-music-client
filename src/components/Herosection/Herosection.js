@@ -3,6 +3,7 @@ import "./Herosection.css";
 import Footer from '../Footer/Footer';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faFacebook, faInstagram, faSoundcloud, faSpotify } from "@fortawesome/free-brands-svg-icons";
+import ReactPlayer from 'react-player'
 
 export default Herosection => {
     return (
@@ -36,7 +37,7 @@ export default Herosection => {
             </div>
             <div className="section2">
                 <div className="music-container">
-                    
+                <ReactPlayer url='https://soundcloud.com/i_am_fractal/witness-the-fitness-remix?si=673e3b8d8b1c4108a62443decac991a3' />
                 </div>
             </div>
             <Footer />
