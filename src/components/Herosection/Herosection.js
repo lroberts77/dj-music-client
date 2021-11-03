@@ -41,7 +41,7 @@ export default Herosection => {
                         Listen and enjoy a flake
                     </div>
                     <div className="song1">
-                        <ReactPlayer className="music-player" height="200px" width="calc(100vw - 40px)" url='https://soundcloud.com/i_am_fractal/witness-the-fitness-remix?si=673e3b8d8b1c4108a62443decac991a3' />
+                        <ReactPlayer className="music-player" height="200px" width="calc(100vw - 40px)" url='https://soundcloud.com/i_am_fractal/wonder-1?si=98147bc693d840b3aa8795eea2fcfec1' />
                     </div>
                     <div className="song2">
                         <ReactPlayer className="music-player" height="200px" width="calc(100vw - 40px)" url='https://soundcloud.com/i_am_fractal/witness-the-fitness-remix?si=673e3b8d8b1c4108a62443decac991a3' />
