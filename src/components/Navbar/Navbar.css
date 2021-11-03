@@ -16,23 +16,23 @@
 .logo {
     display: flex;
     align-items: center;
+    flex-direction: column;
     text-decoration: none;
 }
 
-/* .img {
-    background-image: url(https://i1.sndcdn.com/avatars-Rh4rGNwHzYj69jju-l05fAQ-t500x500.jpg);
-    width: 50px;
-    height: 50px;
-    opacity: 1;
-} */
+.img {
+    height: 65%;
+    border-radius: 50%;
+    margin-top: 10px;
+}
 
 .owner {
     font-family: Orbitron;
     text-shadow: 6px 6px 9px rgba(rgb(57, 3, 82), 0.4);
-    /* height: 70%; */
-    /* margin-top: 0.5vh;   */
+    height: 20%;
+    margin-top: -10px;  
     color: white;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: lighter;
     transition: all .5s ease-in-out;
 }

@@ -1,14 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import "./Navbar.css";
 // import vinyl from "../../assets/images/record.png"
-// import fractal from "../../assets/images/fractal.png"
+import fractal from "../../assets/images/flake.jpg"
 import { Divide as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className="logo">
-                {/* <img className="img" alt="logo" /> */}
+                <img className="img" src={fractal} alt="logo" />
                 <h2 className="owner">FRACTAL</h2>
             </div>
 
