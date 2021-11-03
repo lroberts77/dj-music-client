@@ -95,11 +95,11 @@
     .section2 {
         max-width: 100vw;
         height: 50vh;
-        object-fit: fill;
+        box-sizing: border-box;
     }
 
     .music-container {
-        max-width: 95%;
+        max-width: 300px;
         object-fit: fill;
     }
 
