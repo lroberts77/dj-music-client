@@ -22,7 +22,7 @@ export default Herosection => {
                             <a href="" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
                         </div>
                         <div className="social-border">
-                            <a href="" className="youtube"><FontAwesomeIcon icon={faSoundcloud} /></a>
+                            <a href="https://soundcloud.com/i_am_fractal" className="youtube"><FontAwesomeIcon icon={faSoundcloud} /></a>
                         </div>
                         <div className="social-border">
                             <a href="" className="youtube"><FontAwesomeIcon icon={faSpotify} /></a>
