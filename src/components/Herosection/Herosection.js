@@ -19,7 +19,7 @@ export default Herosection => {
                         </p>
                         <div className="social-container">
                         <div className="social-border">
-                            <a href="" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+                            <a href="https://instagram.com/1803djr" className="instagram"><FontAwesomeIcon icon={faInstagram} /></a>
                         </div>
                         <div className="social-border">
                             <a href="https://soundcloud.com/i_am_fractal" className="youtube"><FontAwesomeIcon icon={faSoundcloud} /></a>
