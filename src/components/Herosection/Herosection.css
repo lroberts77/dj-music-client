@@ -34,10 +34,11 @@
     .about-container {
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: relative;
         box-sizing: border-box;
         align-items: center;
         top: 2.5rem;
+        justify-content: center;
         /* height: 45vh; */
         padding: 110px 50px 20px 50px;
         color: white;
@@ -116,5 +117,23 @@
     .song1 {
         padding-bottom: 30px;
     }
+    
+    /* .mobilePrestitial__deeplink.sc-button-cta, .sc-button-cta:focus, .sc-button-cta:hover, .sc-button-cta:visited, .sc-button.sc-button-white:focus, .sc-button.sc-button-white:hover {
+        background-color: black !important;
+    }
+
+    .mobilePrestitial__deeplink.sc-button-large {
+        background-color: black !important;
+    }
+
+    .mobilePrestitial__deeplink sc-button sc-button-large sc-button-cta {
+        background-color: black !important;
+    }
+
+    .sc-button-cta, .sc-button-cta:focus, .sc-button-cta:hover, .sc-button-cta:visited, .sc-button.sc-button-white:focus, .sc-button.sc-button-white:hover {
+        background-color: black !important;
+        border-color: #f50;
+        color: #fff;
+    } */
     
 /* } */
