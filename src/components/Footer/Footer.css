@@ -17,8 +17,14 @@
     justify-content: space-between;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
 }
 
 .copyright {
