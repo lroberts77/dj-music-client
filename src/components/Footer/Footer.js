@@ -8,10 +8,10 @@ const Footer = () => {
                 <div className="quick-links">
                     <ul className="footer-ul">
                         <li className="footer-list">
-                            <a href=""><pre>Home  | </pre></a>
-                            <a href=""><pre>About  | </pre></a>
-                            <a href=""><pre>Songs  | </pre></a>
-                            <a href=""><pre>Email me</pre></a>
+                            <a href=""><pre>Home   |  </pre></a>
+                            <a href=""><pre>About  |  </pre></a>
+                            <a href=""><pre>Songs  |  </pre></a>
+                            <a href="mailto:djrconsultancyltd@gmail.com"><pre>Email me</pre></a>
                         </li>
                     </ul>
                 </div>
