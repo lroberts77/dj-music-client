@@ -44,6 +44,11 @@
 }
 
 .copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
     text-transform: uppercase;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
