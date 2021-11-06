@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import "./Navbar.css";
 // import vinyl from "../../assets/images/record.png"
-import fractal from "../../assets/images/flake.jpg"
+import fractal from "../../assets/images/fractal-logo.jpg"
 import { Divide as Hamburger } from 'hamburger-react'
 
 const Navbar = () => {
