@@ -111,9 +111,10 @@
         font-family: orbitron;
         text-align: center;
         padding-bottom: 25px;
-        background: linear-gradient(to right, rgb(57, 1, 122) 0%, rgb(0, 15, 150) 100%);
+        /* background: linear-gradient(to right, rgb(57, 1, 122) 0%, rgb(0, 15, 150) 100%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent; */
+        color: white;
     }
 
     .song1 {
